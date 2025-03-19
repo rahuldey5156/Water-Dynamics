@@ -7,7 +7,7 @@ Requirements:
 Additional:
 1) Here we have considered oxygen atoms (OW) of water molecule that are around 5.5 Angstrom distance from protein molecule. Change the cutoff distance as per need.
 2) The name of the datafiles considered here are van_hove.pdb and van_hove.xtc. Change the names accordingly.
-3) The time interval considered here is 250 frames. Change it accordingly in the variable name "frame gap".
+3) The time interval considered here is 250 frames. Change it accordingly in the loop statement and in the variable name "next frame".
 4) Datafile created is named as van_hove_5000.dat
 5) Make sure the input files does not contain hydrogen atoms of both protein and water molecule. Process the pdb and xtc files accordingly. If the hydrogen atoms of protein molecule would have been present, then the OW atoms would have been selected 5.5 Angstrom from the hydrogen atoms of protein molecule. Hence, remove the hydrogen atoms of protein molecule.
 6) Here we have analyzed first 5000 frames of the trajectory. Change it as per needed in the variable name "frames needed".
