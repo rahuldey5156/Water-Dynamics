@@ -66,7 +66,7 @@ results = calculate_residential_time(u, frame_needed)
 means = pad_and_calculate_means(results)
 
 # Create an array with frame numbers and corresponding mean values
-data_to_save = np.column_stack((np.arange(len(means)), means))
+data_to_save = np.column_stack((np.arange(1, (len(means)+1)), means))
 
 # Save the data to a file without a header
 np.savetxt('continuous_residential_time.dat', data_to_save, fmt="%d %.4f", delimiter='\t')
