@@ -1,0 +1,1 @@
+In Molecular Dynamics (MD) simulations, a protein-water hydrogen bond (H-bond) refers to the formation of a hydrogen bond between a protein and surrounding water molecules. Hydrogen bonds play a crucial role in maintaining protein structure, stability, and function by facilitating interactions with the aqueous environment.
