@@ -20,4 +20,10 @@ Use:
 1) First run the TCL script. It will create 3 datafiles - donor.dat, acceptor.dat and donor_hydrogen.dat.
 2) Then any of the python script (continuous or intermittent) as per requirement.
 3) Make sure the name of the datafiles are system_0ns.pdb and analysis.xtc for the TCL script to run. Otherwise change the names in the script.
-4) Final name of the datafile will be continuous_protein_water_hbond.dat or intermittent_protein_water_hbond.dat (depending the python script used).
+4) Output filename will be continuous_protein_water_hbond.dat or intermittent_protein_water_hbond.dat (depending the python script used).
+
+Additional:
+1) Here we have considered water molecules that are around 5.5 Angstrom distance from protein molecule. Change the cutoff distance as per need in the TCL script.
+2) Change the distance criterion and angle criterion in the TCL script if needed.
+4) Make sure the input files contain hydrogen atoms of the water molecule. Process the pdb and xtc files accordingly. In the TCL script, the Hydrogen atoms of protein are not considered, so it can be kept in the input files.
+5) Here we have analyzed all the frames of the entire trajectory. Change it as per needed in the TCL script.
