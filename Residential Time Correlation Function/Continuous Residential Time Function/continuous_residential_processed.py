@@ -58,7 +58,7 @@ padded_results = np.array([np.pad(arr, (0, max_length - len(arr)), constant_valu
 means = np.nanmean(padded_results, axis=0)
 
 # Create an array with frame numbers and corresponding mean values
-data_to_save = np.column_stack((np.arange(len(means)), means))
+data_to_save = np.column_stack((np.arange(1, (len(means)+1)), means))
 
 # Save the data to a file without a header
-np.savetxt('CTE_pentamer_residential_time.dat', data_to_save, fmt="%d %.4f", delimiter='\t')
+np.savetxt('continuous_residential_time.dat', data_to_save, fmt="%d %.4f", delimiter='\t')
