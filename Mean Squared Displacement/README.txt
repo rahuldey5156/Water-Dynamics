@@ -9,3 +9,4 @@ Additional:
 2) The name of the datafiles considered here are msd.pdb and msd.xtc. Change the names accordingly.
 3) Datafile created is named as msd.dat
 4) Make sure the input files does not contain hydrogen atoms of both protein and water molecule. Process the pdb and xtc files accordingly. If the hydrogen atoms of protein molecule would have been present, then the OW atoms would have been selected 5.5 Angstrom from the hydrogen atoms of protein molecule. Hence, remove the hydrogen atoms of protein molecule.
+5) Here we have analyzed all the frames of the entire trajectory. Change it as per needed in the variable name "frames needed".
