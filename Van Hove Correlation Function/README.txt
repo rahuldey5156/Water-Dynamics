@@ -1,12 +1,2 @@
 In the context of water dynamics around proteins in molecular dynamics (MD) simulations, the Van Hove correlation function is used to describe how water molecules move relative to each other or to the protein over time. It provides insights into the spatial and temporal organisation of water molecules near the protein surface. The Van Hove function, 
-𝐺
-(
-𝑟
-,
-𝑡
-)
-G(r,t), is a time-dependent pair correlation function that measures the probability of finding a particle at a distance 
-𝑟
-r from another particle (or a reference site) after a time interval 
-𝑡
-t.
+G(r,t), is a time-dependent pair correlation function that measures the probability of finding a particle at a distance 𝑟 from another particle (or a reference site) after a time interval t.
