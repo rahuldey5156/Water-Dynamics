@@ -6,14 +6,14 @@ There are 2 ways of calculating Continuous Residential Time Correlation Function
 
 METHOD 1:
 
-Takes longer time to complete. It will create output file named "continuous_residential_time.dat".
+Takes longer time to complete. It will create output file named "continuous_residential_time.dat". Change the name of input files and cutoff values if needed. Process input files without hydrogen atoms from both protein and water molecules.
 Requirements:
 1) MDAnalysis
 2) Numpy
 
 METHOD 2:
 
-Takes quicker time to complete. TCL script creates output file named "hydration_water_index.dat" and then the python script creates final output file named "continuous_residential_time.dat".
+Takes quicker time to complete. TCL script creates output file named "hydration_water_index.dat" and then the python script creates final output file named "continuous_residential_time.dat". Change the name of input files and cutoff values if needed. Process input files without hydrogen atoms from both protein and water molecules.
 Requirements:
 1) VMD TCL Scripting
 2) Python numpy library
