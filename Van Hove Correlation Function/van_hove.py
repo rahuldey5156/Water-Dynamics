@@ -14,7 +14,7 @@ def calculate_van_hove(u, frame_needed):
         selected_indices = oxygens.indices
         coords_oxygens = oxygens.positions.copy()
 
-        # Next frame taken after 200 frame
+        # Next frame taken after 250 frame
         next_frame = current_frame + 250
         # Access the target frame
         u.trajectory[next_frame]
